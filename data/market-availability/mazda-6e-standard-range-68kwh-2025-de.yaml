@@ -1,0 +1,40 @@
+# Mazda 6e Standard Range 68.8 kWh (2025) - Germany Market
+id: mazda-6e-standard-range-68kwh-2025-de
+variant_id: mazda-6e-standard-range-68kwh-2025
+market: DE
+market_name: Germany
+currency: EUR
+
+availability_status: available
+available_from: "2025-04"
+
+pricing:
+  base_price: 44900
+  price_including_vat: 44900
+  vat_rate_percent: 19
+
+trim_levels:
+  - name: Takumi
+    price: 44900
+    description: Entry trim for the 68.8 kWh LFP battery
+  - name: Takumi Plus
+    price: 46900
+    description: Higher equipment level for the 68.8 kWh LFP battery
+
+delivery:
+  typical_wait_weeks: null
+  production_location: China (Changan-Mazda JV)
+
+notes: >
+  German launch pricing: orders opened 1 April 2025 at EUR 44,900 for the Takumi
+  and EUR 46,900 for the Takumi Plus, with dealer deliveries from summer 2025.
+  Prices are launch prices and have not been re-checked against the current
+  mazda.de configurator. The Long Range 80 kWh uses different trims and pricing
+  (see mazda-6e-long-range-80kwh-2025-de).
+
+metadata:
+  data_quality: unverified
+  price_checked_at: "2026-10-15"
+  created_at: "2026-10-15"
+  sources:
+    - https://www.electrive.net/2025/03/18/mazda6e-ab-44-900-euro-bestellbar/

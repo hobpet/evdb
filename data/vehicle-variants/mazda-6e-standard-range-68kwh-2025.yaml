@@ -1,0 +1,60 @@
+id: mazda-6e-standard-range-68kwh-2025
+model_id: mazda-6e
+name: Standard Range 68.8 kWh
+model_year: 2025
+battery:
+  usable_kwh: 66.0
+  total_kwh: 68.8
+  chemistry: LFP
+  manufacturer: changan
+performance:
+  drive_type: RWD
+  top_speed_kmh: 175
+  acceleration_0_100_sec: 7.6
+  total_power_kw: 190
+  total_torque_nm: 320
+range:
+  wltp_km: 479
+  wltp_city_km: 605
+  epa_km: null
+efficiency:
+  wltp_kwh_per_100km: 16.6
+charging:
+  ac_max_kw: 11
+  ac_phases: 3
+  ac_connector: Type2
+  dc_max_kw: 165
+  dc_connector: CCS2
+  time_10_to_80_min: 24
+dimensions:
+  length_mm: 4921
+  width_mm: 1890
+  height_mm: 1485
+  wheelbase_mm: 2895
+cargo:
+  trunk_capacity_liters: 466
+  trunk_max_liters: 1074
+  frunk_capacity_liters: 72
+notes: >
+  Entry battery option of the Mazda 6e (Changan EPA1 platform, built in China):
+  a 68.8 kWh LFP pack driving a single rear motor with 190 kW / 320 Nm, which is
+  more powerful and quicker than the 80 kWh Long Range (180 kW, 7.8 s), and
+  charges faster on DC (165 kW peak, 10-80 % in about 24 min vs. roughly 90 kW
+  and 47 min for the Long Range). Mazda Germany expects about 90 % of 6e sales
+  to be this battery. German trims are Takumi and Takumi Plus.
+
+  Gaps / caveats: usable battery capacity (66.0 kWh) is only from a secondary
+  database (another lists 68.0 kWh) and is required by the schema, so treat it
+  as an estimate. Curb and gross weight, towing capacity and real-world range
+  are left unset because secondary sources disagree (e.g. curb weight 1,952 vs
+  2,037 kg). Peak DC power is 165 kW in Mazda-derived sources; some
+  third-party sites list 170 or 200 kW. The 24 min 10-80 % figure is from press
+  coverage of the launch (22-27 min reported). Ground clearance is not set.
+metadata:
+  data_quality: unverified
+  created_at: '2026-10-15'
+  updated_at: '2026-10-15'
+  sources:
+  - https://www.electrive.net/2025/03/18/mazda6e-ab-44-900-euro-bestellbar/
+  - https://www.go-electra.com/en/newsroom/mazda-6e-price-range-and-technical-specifications-of-the-japanese-electric-sedan/
+  - https://media-assets.mazda.eu/raw/upload//mazdade/globalassets/pdfs/brochure/mazda6e/18-03-2025_preisliste_mazda6e.pdf
